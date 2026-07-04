@@ -113,10 +113,10 @@ make
 
 ```bash
 # Cloner le repository
-git clone https://github.com/ibrahimagaye/α-Redis.git
+git clone https://github.com/hamadou-abdoulaye/a-redis.git
 
 # Aller dans le dossier
-cd α-Redis
+cd a-Redis
 
 # Compiler et lancer
 ./start.sh (Linux/Mac)
