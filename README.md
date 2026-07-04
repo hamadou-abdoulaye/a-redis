@@ -21,7 +21,7 @@ start.bat
 # Compiler
 build.bat
 
-# Lancer
+# Ouvrir le dossier sur un terminal et taper
 bin\aredis.exe
 ```
 
