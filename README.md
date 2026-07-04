@@ -5,11 +5,11 @@
 
 Version en C du moteur de stockage NoSQL α-Redis, avec interface console et web.
 
-## 🚀 Démarrage Rapide
+##  Démarrage Rapide
 
-### 🪟 Windows
+###  Windows
 
-**Méthode simple (recommandée):**
+**Méthode simple**
 ```bash
 # Double-cliquer sur start.bat
 # OU taper dans le terminal:
@@ -25,7 +25,7 @@ build.bat
 bin\aredis.exe
 ```
 
-### 🐧 Linux / Mac
+###  Linux / Mac
 
 ```bash
 # Compiler le projet
@@ -35,7 +35,7 @@ make
 ./bin/aredis
 ```
 
-## 📋 Commandes Disponibles
+##  Commandes Disponibles
 
 ### Chaînes (Strings)
 - `SET clé valeur` - Stocker une valeur
@@ -58,7 +58,7 @@ make
 - `STATS` - Afficher les statistiques
 - `DATA` - Afficher toutes les données
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 α-Redis/
@@ -75,23 +75,23 @@ make
 └── README.md              # Documentation
 ```
 
-## 🎓 Concepts Académiques
+##  Concepts Académiques
 
-- ✅ Table de hachage avec fonction DJB2
-- ✅ Listes doublement chaînées
-- ✅ Résolution de collisions par chaînage
-- ✅ Redimensionnement dynamique
-- ✅ Gestion manuelle de la mémoire
-- ✅ Parseur de commandes
-- ✅ Serveur web avec API REST
+-  Table de hachage avec fonction DJB2
+-  Listes doublement chaînées
+-  Résolution de collisions par chaînage
+-  Redimensionnement dynamique
+-  Gestion manuelle de la mémoire
+-  Parseur de commandes
+-  Serveur web avec API REST
 
-## 📊 Performances
+##  Performances
 
 - **SET/GET**: ~100,000 ops/sec
 - **LPUSH/RPUSH**: ~200,000 ops/sec
 - **LPOP/RPOP**: ~200,000 ops/sec
 
-## 📝 Informations
+##  Informations
 
 - **Nom**: α-Redis
 - **Langage**: C (C99)
@@ -99,36 +99,10 @@ make
 - **Date limite**: 05 Juillet 2026
 - **Contact**: ibrahima.gaye.upa@gmail.com
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - Interface console interactive en français
 - Interface web moderne avec statistiques en temps réel
 - 12 commandes Redis implémentées
-- 24 tests unitaires complets
-- Code commenté et pédagogique
 
-## 🚀 Pour GitHub
 
-### Installation
-
-```bash
-# Cloner le repository
-git clone https://github.com/hamadou-abdoulaye/a-redis.git
-
-# Aller dans le dossier
-cd a-Redis
-
-# Compiler et lancer
-./start.sh (Linux/Mac)
-start.bat (Windows)
-```
-
-### Contribution
-
-Les contributions sont les bienvenues! N'hésitez pas à ouvrir une issue ou un pull request.
-
-## 📄 License
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
-**Le projet est prêt pour la présentation!**
