@@ -1,0 +1,16 @@
+# Fichiers compilés
+bin/
+obj/
+*.exe
+*.o
+*.a
+
+# Fichiers système
+.vscode/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+*.log
+*.tmp
